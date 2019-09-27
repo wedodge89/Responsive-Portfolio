@@ -1,0 +1,86 @@
+h1 {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    color: rgb(131, 0, 26);
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15 px;
+}
+
+header {
+    margin: 0px 0px 35px 0px;
+    color: #FFFFFF;
+    width: "20%";
+    position: relative;
+    left:0;
+    top: 0;
+    padding: 20 px;
+    background-color: whitesmoke; 
+    float: left;
+    z-index: 1;
+}
+
+nav {
+    float: right;
+    font-size: 24px;
+    color: gray;
+    text-align: right;
+    background-color: white;
+    padding: 10px;
+    line-height: 36px;
+    color: rgb(131, 0, 26)
+    z-index 0;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+body {
+    float: left;
+    font-family: "Times New Roman";
+    color: black;
+    font-size: 14px;
+    border-color: #dddddd;
+    background-color: rgb(175, 174, 174);
+}
+
+main {
+    position: relative;
+    background-color: whitesmoke;
+    border: 10px solid black;
+    width: 60vw;
+    padding: 20px;
+    margin: 100px 20px 20px 50px;
+    overflow: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+footer {
+    color: white;
+    position: static;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    border-top: 10px solid rgb(131, 0, 26);
+    width: 100vw;
+}
+
+a {
+    color: rgb(131, 0, 26);
+}
+
+a:hover {
+    background-color: rgb(131, 0, 26);
+    color: white;
+}

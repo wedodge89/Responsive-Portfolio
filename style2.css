@@ -1,0 +1,82 @@
+#logo {
+    size: 40px;
+    background-color: rgb(131, 0, 26);
+    text-align: left;
+    padding: 20px;
+    color: #ffffff;
+    position: absolute;
+    width: 40vw;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    color: black;
+    background-color: white;
+    position: relative;
+    bottom: 5px;
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+}
+
+.form {
+    width: 275px;
+}
+
+.form2 {
+    width: 275px;
+    height: 125px;
+    text-align: top;
+}
+
+#headshot {
+    float: left;
+    margin: 15px;
+    overflow: auto;
+    border: 5px solid rgb(131, 0, 26);
+}
+
+@media only screen and (max-width: 980px){
+    main {
+        position: relative;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    main {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        width: 80vw;
+    }
+    #logo {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 640px) { 
+    #headshot {
+        float: none;
+    }
+    main {
+        width: 75vw;
+    }
+    #logo {
+        font-size: 32px;
+        padding: 0;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        line-height: 50px;
+        }
+}
